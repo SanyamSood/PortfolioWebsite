@@ -7,24 +7,24 @@ import{logo, menu, close} from '../assets';
 const Navbar = () => {
   const[active,setActive]=useState('')
   return (
-    <nav
-      className={'${styles.paddindX} w-full flex items-centre py-5 fixed top-0 z-20 bg-primary'}
-      >
-        <div className="w-full flex justify-between items-centre max-w-7xl mx-auto">
-          <link
-            to="/"
-            className="flex items-centre gap-2"
-            onClick={() => {
-              setActive("")
-              window.scrollTo(0,0);
-            }}>
-              <img src={logo} alt="logo" className="w-9 h-9 object-contain"/>
-              <p className="text-white text-[18px] fornt-bold cursor-pointer"> Sanyam Sood</p>
-          </link>
-
-        </div>
-
+    <nav className={` ${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary `}>
+      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+        <Link to='/'
+          className='flex item-center gap-2'
+          onClick={() => {
+            setActive("");
+            window.scrollTo(0,0);
+          }}>
+            <img src='logo.svg' alt = 'logo' className='w-11 h-18 object-contain' />
+            <p className='text-white text-[18px] font-bold cursor-pointer flex my-4'>Sanyam Sood&nbsp;
+            <span className='sm:block hidden'>|&nbsp; 
+            Software Engineer</span></p>
+        </Link>
+      </div>
     </nav>
+  
+    
+    
   )
 }
 
