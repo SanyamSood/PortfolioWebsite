@@ -42,15 +42,15 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Data Structures and Algos",
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Web Development",
+      icon: web,
     },
     {
-      title: "Backend Developer",
+      title: "Artificial Intelligence",
       icon: backend,
     },
     {
