@@ -17,6 +17,7 @@ import {
     docker,
     meta,
     starbucks,
+    tiet,
     tesla,
     shopify,
     carrent,
@@ -118,7 +119,7 @@ import {
     {
       title: "Graduation",
       company_name: "Thapar Institute of Engineering and Technology",
-      icon: starbucks,
+      icon: tiet,
       iconBg: "#383E56",
       date: "Sept 2020 - June 2024",
       points: [
@@ -160,25 +161,25 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Duplicate Question Pairs",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed a robust Machine Learning solution to assess question similarity, utilizing a dataset of 400k question pairs from Quora. Conducted extensive data preprocessing and feature engineering, enabling effective application of advanced ML algorithms.",
       tags: [
         {
-          name: "react",
+          name: "Machine Learning",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "host",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Bag Of Words",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/SanyamSood/Duplicate-Ques-Pairs",
     },
     {
       name: "Job IT",
