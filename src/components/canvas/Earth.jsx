@@ -30,6 +30,7 @@ const EarthCanvas = () => {
         <OrbitControls
           autoRotate
           enableZoom={false}
+          
         
         />
         <Earth />

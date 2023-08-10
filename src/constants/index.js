@@ -23,6 +23,7 @@ import {
     carrent,
     jobit,
     tripguide,
+    lighthouse,
     threejs,
   } from "../assets";
   
@@ -182,46 +183,67 @@ import {
       source_code_link: "https://github.com/SanyamSood/Duplicate-Ques-Pairs",
     },
     {
-      name: "Job IT",
+      name: "Reverb",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Built on Solana Blockchain. Sign up with Phantom Wallet and pay just 0.1 SOL for full access. Enjoy uninterrupted music through Quicknode API and explore a diverse range of tracks stored on Cloudinary. You can also upload your own songs for a small gas fee.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Solana",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Cloud",
           color: "pink-text-gradient",
+        },
+        {
+          name: "Phantom Wallet",
+          color: "grey-text-gradient",
         },
       ],
       image: jobit,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Most Dominant Colour",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Developed a Python-based image analysis tool using K-Means Clustering. Implemented the algorithm to showcase the top five most occurring colors per image. Demonstrates strong data analysis and algorithmic skills for practical image processing solutions.",
       tags: [
         {
-          name: "nextjs",
+          name: "Machine Learning",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "K-means Clustering",
           color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
         },
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
+    },
+    {
+      name: "Lighthouse Animation",
+      description:
+        "Delve into a captivating world of light and motion with my OpenGL project. Toggle between day and night modes to witness a dynamic lighthouse scene by tranquil waters. Move the boat as you wish on the Waves that gently ripple. This project highlights my skills in graphics programming and interactive design, offering a captivating visual experience.        ",
+      tags: [
+        {
+          name: "C++",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "GLUT Library",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Math",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: lighthouse,
+      source_code_link: "https://github.com/SanyamSood/Animation-Using-GLUT",
     },
   ];
   

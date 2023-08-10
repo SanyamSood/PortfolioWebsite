@@ -3,7 +3,7 @@ import { Link}from 'react-router-dom';
 
 import { styles} from '../styles';
 import {navLinks} from '../constants';
-import{logo, menu, close} from '../assets';
+import{slogo, menu, close} from '../assets';
 const Navbar = () => {
   const[active,setActive]=useState('');
   const[toggle,setToggle]=useState(false);
@@ -16,7 +16,7 @@ const Navbar = () => {
             setActive("");
             window.scrollTo(0,0);
           }}>
-            <img src='logo.svg' alt = 'logo' className='w-11 h-18 object-contain' />
+            <img src='src/assets/slogo.png' alt = 'logo' className='w-11 h-18 object-contain' />
             <p className='text-white text-[18px] font-bold cursor-pointer flex my-4'>Sanyam Sood&nbsp;
             <span className='sm:block hidden'>|&nbsp; 
             Software Engineer</span></p>
