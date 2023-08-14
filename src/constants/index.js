@@ -23,6 +23,7 @@ import {
     carrent,
     jobit,
     tripguide,
+    mostDominantColors,
     lighthouse,
     threejs,
   } from "../assets";
@@ -180,7 +181,9 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/SanyamSood/Duplicate-Ques-Pairs",
+      source_code_link1: "https://github.com/SanyamSood/Duplicate-Ques-Pairs",
+      source_code_link2: "https://github.com/SanyamSood/",
+      
     },
     {
       name: "Reverb",
@@ -205,7 +208,8 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link1: "https://github.com/",
+      source_code_link2: "https://github.com/SanyamSood/",
     },
     {
       name: "Most Dominant Colour",
@@ -221,8 +225,9 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: mostDominantColors,
+      source_code_link1: "https://github.com/SanyamSood/most_dominant_color",
+      source_code_link2: "https://duplicate-ques-pairs.streamlit.app/",
     },
     {
       name: "Lighthouse Animation",
@@ -244,6 +249,7 @@ import {
       ],
       image: lighthouse,
       source_code_link: "https://github.com/SanyamSood/Animation-Using-GLUT",
+      source_code_link2: "https://github.com/SanyamSood/Animation-Using-GLUT"
     },
   ];
   
