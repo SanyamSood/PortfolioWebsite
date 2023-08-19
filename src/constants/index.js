@@ -26,6 +26,10 @@ import {
     mostDominantColors,
     lighthouse,
     threejs,
+    c,
+    cpp,
+    python,
+    dqp
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +50,7 @@ import {
   const services = [
     {
       title: "Data Structures and Algos",
-      icon: web,
+      icon: mobile,
     },
     {
       title: "Web Development",
@@ -64,6 +68,18 @@ import {
   
   const technologies = [
     {
+      name: "c",
+      icon: c,
+    },
+    {
+      name: "CPP",
+      icon: cpp,
+    },
+    {
+      name: "python",
+      icon: python,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -76,44 +92,16 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
     },
     {
       name: "Node JS",
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
@@ -180,9 +168,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: dqp,
       source_code_link1: "https://github.com/SanyamSood/Duplicate-Ques-Pairs",
-      source_code_link2: "https://github.com/SanyamSood/",
+      source_code_link2: "https://duplicate-ques-pairs-sanyam.streamlit.app/",
       
     },
     {
@@ -208,8 +196,8 @@ import {
         },
       ],
       image: jobit,
-      source_code_link1: "https://github.com/",
-      source_code_link2: "https://github.com/SanyamSood/",
+      source_code_link1: "https://github.com/SanyamSood/Reverb-web3-music-Dapp",
+      source_code_link2: "https://github.com/SanyamSood/Reverb-web3-music-Dapp",
     },
     {
       name: "Most Dominant Colour",
@@ -248,7 +236,7 @@ import {
         },
       ],
       image: lighthouse,
-      source_code_link: "https://github.com/SanyamSood/Animation-Using-GLUT",
+      source_code_link1: "https://github.com/SanyamSood/Animation-Using-GLUT",
       source_code_link2: "https://github.com/SanyamSood/Animation-Using-GLUT"
     },
   ];

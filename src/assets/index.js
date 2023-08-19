@@ -22,6 +22,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import c from "./tech/c.png";
+import cpp from "./tech/cpp.png";
+import python from "./tech/python.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -30,10 +33,11 @@ import tiet from "./company/tiet.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import jobit from "./jobit.jpg";
 import tripguide from "./tripguide.png";
 import lighthouse from "./lighthouse.png";
 import mostDominantColors from "./mostDominantColors.png";
+import dqp from "./dqp.png";
 
 export {
   logo,
@@ -68,5 +72,9 @@ export {
   tripguide,
   mostDominantColors,
   lighthouse,
+  dqp,
   slogo,
+  c,
+  cpp,
+  python
 };

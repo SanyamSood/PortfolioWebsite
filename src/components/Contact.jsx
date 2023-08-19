@@ -6,6 +6,9 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+//template_g8iufer template id
+//bGBtHF3vG-VeGNVUh public key
+//service_hbfb3vu service id
 
 const Contact = () => {
   const formRef = useRef();
@@ -33,8 +36,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_hbfb3vu',
+        'template_g8iufer',
         {
           from_name: form.name,
           to_name: "Sanyam Sood",
@@ -42,7 +45,7 @@ const Contact = () => {
           to_email: "soodsanyam007007@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'bGBtHF3vG-VeGNVUh'
       )
       .then(
         () => {

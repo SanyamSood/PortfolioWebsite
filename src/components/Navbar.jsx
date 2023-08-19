@@ -16,7 +16,7 @@ const Navbar = () => {
             setActive("");
             window.scrollTo(0,0);
           }}>
-            <img src='src/assets/slogo.png' alt = 'logo' className='w-11 h-18 object-contain' />
+            <img src={slogo} alt = 'logo' className='w-11 h-18 object-contain' />
             <p className='text-white text-[18px] font-bold cursor-pointer flex my-4'>Sanyam Sood&nbsp;
             <span className='sm:block hidden'>|&nbsp; 
             Software Engineer</span></p>
